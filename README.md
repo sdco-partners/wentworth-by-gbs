@@ -1,6 +1,6 @@
-# Getting Started with Create React App
+# Wentworth by GBS
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This static landing page for Wentworth was bootstrapped with `create-react-app`.
 
 ## Available Scripts
 
