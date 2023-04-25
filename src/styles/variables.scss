@@ -1,0 +1,32 @@
+/*
+* Web Font Licensing Info
+*/
+
+// @font-face {
+//     font-family: 'Fortescue';
+//     src: url('../assets/fonts/fortescue-text-regular-pro.woff2') format('woff2'),
+//         url('../assets/fonts/fortescue-text-regular-pro.woff') format('woff'),
+//         url('../assets/fonts/fortescue-text-regular-pro.ttf') format('truetype');
+//     font-weight: normal;
+//     font-style: normal;
+// }
+
+$serif: serif;
+$sans: sans-serif;
+
+$h1: 1.125rem;
+$h1_mobile: 1rem;
+$h2: 1.125rem;
+$h2_mobile: 0.8125rem;
+$h3: 0.75rem;
+$h3_mobile: 0.675rem;
+
+@import "./breakpoint-sass/stylesheets/breakpoint";
+
+$desktop: 1367px;
+$laptop: 960px;
+$tablet: 768px;
+$mobile: 400px;
+
+$sand: #E0DBD3;
+$sage: #6C6E60;

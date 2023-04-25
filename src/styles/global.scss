@@ -1,0 +1,25 @@
+@import "variables";
+
+html, body {
+    margin: 0;
+    height: 100%;
+    width: 100%;
+    background: $sage;
+    // background-image: url("../assets/photos/Ellery_Background.jpg");
+    // background-position: center;
+    // background-size: cover;
+    // background-repeat: no-repeat;
+    // background-blend-mode: multiply;
+    // color: $sand;
+    overflow: hidden;
+    // text-align: center;
+    ::selection {
+        // background: $sand;
+        // color: $sage;
+    }
+}
+
+a {
+    text-decoration: none;
+    // color: $sand;
+}
