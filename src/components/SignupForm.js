@@ -6,7 +6,7 @@ export default function SignupForm () {
 
         let [email, setEmail] = useState(""); 
         
-        const handleEmailChange = (e) => {
+        function handleEmailChange(e) {
           setEmail(e.target.value);
         }
         
