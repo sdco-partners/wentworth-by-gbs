@@ -70,7 +70,6 @@ html {
 }
 
 body {
-  color: #E0DBD3;
   line-height: 1.25;
   font-smooth: antialiased;
 }
@@ -127,7 +126,7 @@ html, body {
   margin: 0;
   height: 100%;
   width: 100%;
-  background: #6C6E60;
+  background: #7D5B4F;
   overflow: hidden;
 }
 a {
