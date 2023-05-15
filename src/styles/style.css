@@ -60,8 +60,14 @@ html {
 }
 
 /*
-* Web Font Licensing Info
+This CSS resource incorporates links to font software which is the valuable copyrighted property of Monotype and/or its suppliers. You may not attempt to copy, install, redistribute, convert, modify or reverse engineer this font software. Please contact Monotype with any questions regarding Web Fonts: https://www.linotype.com
 */
+@font-face {
+  font-family: "Shelley Script";
+  src: url("../assets/fonts/shelley-script-w01-regular.woff2") format("woff2"), url("../assets/fonts/shelley-script-w01-regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
 html {
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
@@ -120,8 +126,14 @@ body {
 }
 
 /*
-* Web Font Licensing Info
+This CSS resource incorporates links to font software which is the valuable copyrighted property of Monotype and/or its suppliers. You may not attempt to copy, install, redistribute, convert, modify or reverse engineer this font software. Please contact Monotype with any questions regarding Web Fonts: https://www.linotype.com
 */
+@font-face {
+  font-family: "Shelley Script";
+  src: url("../assets/fonts/shelley-script-w01-regular.woff2") format("woff2"), url("../assets/fonts/shelley-script-w01-regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
 html, body {
   margin: 0;
   height: 100%;

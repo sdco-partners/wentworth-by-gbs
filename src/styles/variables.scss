@@ -1,18 +1,18 @@
 /*
-* Web Font Licensing Info
+This CSS resource incorporates links to font software which is the valuable copyrighted property of Monotype and/or its suppliers. You may not attempt to copy, install, redistribute, convert, modify or reverse engineer this font software. Please contact Monotype with any questions regarding Web Fonts: https://www.linotype.com
 */
 
-// @font-face {
-//     font-family: 'Fortescue';
-//     src: url('../assets/fonts/fortescue-text-regular-pro.woff2') format('woff2'),
-//         url('../assets/fonts/fortescue-text-regular-pro.woff') format('woff'),
-//         url('../assets/fonts/fortescue-text-regular-pro.ttf') format('truetype');
-//     font-weight: normal;
-//     font-style: normal;
-// }
+@font-face {
+    font-family: "Shelley Script";
+    src: url('../assets/fonts/shelley-script-w01-regular.woff2') format('woff2'),
+        url('../assets/fonts/shelley-script-w01-regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
 
 $serif: serif;
 $sans: sans-serif;
+$script: "Shelley Script";
 
 $h1: 1.125rem;
 $h1_mobile: 1rem;

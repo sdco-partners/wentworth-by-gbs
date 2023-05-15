@@ -112,6 +112,22 @@
       "sC" : 3,
       "tS" : 0
     },
+    "\/src\/assets\/fonts\/shelley-script-w01-regular.woff" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/src\/assets\/fonts\/shelley-script-w01-regular.woff",
+      "oF" : 0
+    },
+    "\/src\/assets\/fonts\/shelley-script-w01-regular.woff2" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/src\/assets\/fonts\/shelley-script-w01-regular.woff2",
+      "oF" : 0
+    },
     "\/src\/assets\/graphics\/calligraphy.svg" : {
       "ft" : 2097152,
       "miP" : 0,
