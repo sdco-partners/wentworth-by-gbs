@@ -1,0 +1,6 @@
+@mixin sans($size) {
+    font-family: "sweet-sans-pro", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: $size;
+}
