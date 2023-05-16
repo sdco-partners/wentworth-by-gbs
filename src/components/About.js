@@ -1,4 +1,5 @@
 import SignupForm from "../components/SignupForm";
+import { ReactComponent as CardBg } from "../assets/graphics/card_horizontal.svg";
 import { ReactComponent as No162 } from "../assets/graphics/no162.svg";
 import { ReactComponent as WentworthStreet } from "../assets/graphics/wentworth-street.svg";
 import { ReactComponent as Envelope } from "../assets/graphics/envelope.svg";
@@ -9,6 +10,9 @@ export default function About () {
         <>
         <div className="about">
             <div className="about__card">
+                <div className="about__card-bg">
+                    <CardBg></CardBg>
+                </div>
                 <div className="about__card__content">
                     <div className="about__card__content__address">
                         <No162></No162>
