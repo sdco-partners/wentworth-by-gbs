@@ -4,29 +4,34 @@
     bottom: 0;
     left: 0;
     right: 0;
-
+    text-align: center;
+    
     &__content {
         margin: 0 auto;
         max-width: calc(100% - 2rem);
         display: flex;
-
+        flex-flow: column nowrap;
+        @include breakpoint($laptop) {
+            flex-flow: row nowrap;
+            justify-content: space-between;
+        }
+        
         &__left {
             img {
-                position: absolute;
                 width: 110px;
                 height: auto;
-                top: 3.5rem;
-                right: 3.5rem;
             }
         }
         &__right {
+            max-width: calc(100% - 150px);
             display: flex;
             flex-flow: column nowrap;
+            justify-content: center;
             @include breakpoint($laptop) {
                 flex-flow: row nowrap;
             }
             svg {
-                fill: $black;
+                fill: $white;
             }
         }
     }
