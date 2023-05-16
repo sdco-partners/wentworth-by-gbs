@@ -1,13 +1,16 @@
 import Header from "../components/Header";
 import About from "../components/About";
 import Footer from "../components/Footer";
+import FadeIn from "react-fade-in/lib/FadeIn";
 
 export default function Landing () {
     return (
         <>
         <div className="landing">
             <Header></Header>
-            <About></About>
+            <FadeIn delay={2500} transitionDuration={1000}>
+                <About></About>
+            </FadeIn>
             <Footer></Footer>
         </div>
         </>

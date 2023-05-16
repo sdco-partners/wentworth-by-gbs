@@ -79,12 +79,13 @@
         &-contact {
             display: flex;
             flex-flow: column nowrap;
-            align-items: flex-end;
+            align-items: center;
             gap: 0.75rem;
             @include breakpoint($laptop) {
                 width: 100%;
                 flex-flow: row nowrap;
                 justify-content: space-between;
+                align-items: flex-end;
             }
         }
         
