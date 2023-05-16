@@ -12,6 +12,7 @@
         display: flex;
         flex-flow: column nowrap;
         justify-content: center;
+        align-items: flex-end;
         max-width: calc(100% - 2rem);
         @include breakpoint($laptop) {
             max-width: calc(100% - 200px);
@@ -19,16 +20,25 @@
         svg {
             fill: $black;
         }
-        img {
-            position: relative;
-            z-index: 200;
-            text-align: right;
-            width: 110px;
-            height: auto;
-            // top: 3.5rem;
-            // right: 3.5rem;
-            @include breakpoint($laptop) {
-                width: 180px;
+        &__calligraphy {
+            img {
+                transform: translate(-2.75rem, -1rem);
+                position: relative;
+                z-index: 200;
+                width: 110px;
+                height: auto;
+                @include breakpoint($tablet) {
+                    transform: translate(-2.25rem, -1rem);
+                    width: 140px;
+                }
+                @include breakpoint($laptop) {
+                    transform: translate(-2rem, -1.75rem);
+                    width: 170px;
+                }
+                @include breakpoint($desktop) {
+                    transform: translate(-2rem, -2rem);
+                    width: 200px;
+                }
             }
         }
     }

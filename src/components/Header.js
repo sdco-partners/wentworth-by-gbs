@@ -7,7 +7,9 @@ export default function Header () {
         <div className="header">
             <div className="header__content">
                 <Logo></Logo>
-                <img src={Calligraphy} alt=""/>
+                <div className="header__content__calligraphy">
+                    <img src={Calligraphy} alt=""/>
+                </div>
             </div>
         </div>
         </>

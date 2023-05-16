@@ -163,6 +163,7 @@ a {
   display: flex;
   flex-flow: column nowrap;
   justify-content: center;
+  align-items: flex-end;
   max-width: calc(100% - 2rem);
 }
 @media (min-width: 960px) {
@@ -173,16 +174,29 @@ a {
 .header__content svg {
   fill: #000000;
 }
-.header__content img {
+.header__content__calligraphy img {
+  transform: translate(-2.75rem, -1rem);
   position: relative;
   z-index: 200;
-  text-align: right;
   width: 110px;
   height: auto;
 }
+@media (min-width: 768px) {
+  .header__content__calligraphy img {
+    transform: translate(-2.25rem, -1rem);
+    width: 140px;
+  }
+}
 @media (min-width: 960px) {
-  .header__content img {
-    width: 180px;
+  .header__content__calligraphy img {
+    transform: translate(-2rem, -1.75rem);
+    width: 170px;
+  }
+}
+@media (min-width: 1367px) {
+  .header__content__calligraphy img {
+    transform: translate(-2rem, -2rem);
+    width: 200px;
   }
 }
 
