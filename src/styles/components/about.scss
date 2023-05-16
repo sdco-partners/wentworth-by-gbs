@@ -46,18 +46,12 @@
             // background: url("/src/assets/graphics/card_horizontal.svg") center no-repeat;
         }
 
-        &__content {
+        &-content {
             width: 100%;
             position: relative;
             display: flex;
             flex-flow: column wrap;
             align-items: center;
-            &__address {
-                max-width: 60%;
-                display: flex;
-                flex-flow: column nowrap;
-                gap: 0.5rem;
-            }
         }
     }
 }

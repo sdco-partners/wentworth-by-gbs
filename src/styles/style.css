@@ -308,16 +308,10 @@ a {
   z-index: 400;
   margin: 0 auto;
 }
-.about__card__content {
+.about__card-content {
   width: 100%;
   position: relative;
   display: flex;
   flex-flow: column wrap;
   align-items: center;
-}
-.about__card__content__address {
-  max-width: 60%;
-  display: flex;
-  flex-flow: column nowrap;
-  gap: 0.5rem;
 }

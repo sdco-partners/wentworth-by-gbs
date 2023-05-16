@@ -15,23 +15,23 @@ export default function About () {
                     <MobileCardBg className="mobile"></MobileCardBg>
                     <DesktopCardBg className="desktop"></DesktopCardBg>
                 </div>
-                <div className="about__card__content">
-                    <div className="about__card__content__address">
+                <div className="about__card-content">
+                    <div className="about__card-address">
                         <No162></No162>
                         <WentworthStreet></WentworthStreet>
                         <p className="h2">Charleston, South Carolina</p>
                     </div>
-                    <div className="about__card__content__about">
+                    <div className="about__card-description">
                         <h2 className="h3">A shop, experience, and thoughtfully curated collection of new, vintage, and one-of-kind goods from around the world.</h2>
                     </div>
-                    <div className="about__card__content__social">
+                    <div className="about__card-social">
                         <p className="h4">Follow the progress @wentworthbygbs.</p>
                         <p className="h4">Subscribe for the latest news and updates.</p>
                     </div>
-                <div className="about__card__content__form">
+                <div className="about__card-form">
                     <SignupForm></SignupForm>
                 </div>
-                    <div className="about__card__content__contact">
+                    <div className="about__card-contact">
                         <div className="phone">
                             <p className="h2">Phone</p>
                             <p>843.737.0512</p>
