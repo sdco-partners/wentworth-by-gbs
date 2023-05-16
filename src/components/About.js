@@ -13,27 +13,27 @@ export default function About () {
                     <div className="about__card__content__address">
                         <No162></No162>
                         <WentworthStreet></WentworthStreet>
-                        <h2 className="h2">Charleston, South Carolina</h2>
+                        <p className="h2">Charleston, South Carolina</p>
                     </div>
                     <div className="about__card__content__about">
-                        <h3 className="h3">A shop, experience, and thoughtfully curated collection of new, vintage, and one-of-kind goods from around the world.</h3>
+                        <h2 className="h3">A shop, experience, and thoughtfully curated collection of new, vintage, and one-of-kind goods from around the world.</h2>
                     </div>
                     <div className="about__card__content__social">
-                        <h4 className="h4">Follow the progress @wentworthbygbs.</h4>
-                        <h4 className="h4">Subscribe for the latest news and updates.</h4>
+                        <p className="h4">Follow the progress @wentworthbygbs.</p>
+                        <p className="h4">Subscribe for the latest news and updates.</p>
                     </div>
+                <div className="about__card__content__form">
+                    <SignupForm></SignupForm>
+                </div>
                     <div className="about__card__content__contact">
                         <div className="phone">
-                            <p>Phone</p>
+                            <p className="h2">Phone</p>
                             <p>843.737.0512</p>
                         </div>
                         <div className="email">
                             <Envelope></Envelope>
                         </div>
                     </div>
-                </div>
-                <div className="about__card__form">
-                    <SignupForm></SignupForm>
                 </div>
             </div>
         </div>
