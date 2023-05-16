@@ -282,6 +282,22 @@ a {
   display: block;
   object-fit: fill;
 }
+.about__card-bg svg.mobile {
+  display: block;
+}
+@media (min-width: 768px) {
+  .about__card-bg svg.mobile {
+    display: none;
+  }
+}
+.about__card-bg svg.desktop {
+  display: none;
+}
+@media (min-width: 768px) {
+  .about__card-bg svg.desktop {
+    display: block;
+  }
+}
 .about__card {
   padding: 100px;
   position: relative;
