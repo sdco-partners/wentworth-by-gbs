@@ -14,6 +14,7 @@
         @include breakpoint($laptop) {
             flex-flow: row nowrap;
             justify-content: space-between;
+            max-width: calc(100% - 200px);
         }
         
         &__left {
