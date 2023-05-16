@@ -16,12 +16,12 @@ $script: "Shelley Script";
 $sans: normal 700 "sweet-sans-pro", sans-serif;
 $serif: serif;
 
-$h1: 1.125rem;
-$h1_mobile: 1rem;
-$h2: 1.125rem;
-$h2_mobile: 0.8125rem;
-$h3: 0.75rem;
-$h3_mobile: 0.675rem;
+$h2: 1.75rem;
+$h2_mobile: 1.5rem;
+$h3: 1.125rem;
+$h3_mobile: 0.75rem;
+$h4: 0.75rem;
+$h4_mobile: 0.675rem;
 
 @import "./breakpoint-sass/stylesheets/breakpoint";
 

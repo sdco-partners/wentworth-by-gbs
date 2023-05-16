@@ -76,51 +76,45 @@ html {
 }
 
 body {
-  line-height: 1.25;
   font-smooth: antialiased;
 }
 
-.h1__serif {
-  font-family: serif;
-  font-size: 1rem;
-  font-style: normal;
-  font-weight: 400;
-  letter-spacing: 0.01rem;
+.h2 {
+  font-family: "Shelley Script";
+  font-size: 1.5rem;
 }
 @media (min-width: 960px) {
-  .h1__serif {
-    font-size: 1.125rem;
+  .h2 {
+    font-size: 1.75rem;
   }
 }
 
-.h2__serif {
-  font-family: serif;
-  font-size: 1.125rem;
-  font-style: normal;
-  font-weight: 400;
-  text-transform: uppercase;
-  letter-spacing: 0.05rem;
-}
-.h2__sans {
-  font-family: "sweet-sans-pro", sans-serif;
-  font-weight: 700;
-  font-style: normal;
-  font-size: 1.125rem;
-  text-transform: uppercase;
-  letter-spacing: 0.05rem;
-}
-
-.h3__sans {
+.h3 {
   font-family: "sweet-sans-pro", sans-serif;
   font-weight: 700;
   font-style: normal;
   font-size: 0.75rem;
+  line-height: 2;
+  text-transform: uppercase;
+  letter-spacing: 0.05rem;
+}
+@media (min-width: 960px) {
+  .h3 {
+    font-size: 1.125rem;
+  }
+}
+
+.h4 {
+  font-family: "sweet-sans-pro", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 0.675rem;
   line-height: 1.75;
   text-transform: uppercase;
   letter-spacing: 0.05rem;
 }
 @media (min-width: 960px) {
-  .h3__sans {
+  .h4 {
     font-size: 0.75rem;
   }
 }
@@ -284,8 +278,15 @@ a {
 }
 .about__card-bg svg.mobile {
   display: block;
+  margin: 0 auto;
+  max-width: calc(100% - 5rem);
 }
 @media (min-width: 768px) {
+  .about__card-bg svg.mobile {
+    max-width: calc(100% - 10rem);
+  }
+}
+@media (min-width: 960px) {
   .about__card-bg svg.mobile {
     display: none;
   }
@@ -293,9 +294,10 @@ a {
 .about__card-bg svg.desktop {
   display: none;
 }
-@media (min-width: 768px) {
+@media (min-width: 960px) {
   .about__card-bg svg.desktop {
     display: block;
+    max-width: 100%;
   }
 }
 .about__card {
@@ -310,8 +312,32 @@ a {
 }
 .about__card-content {
   width: 100%;
+  margin: 0 auto;
   position: relative;
   display: flex;
   flex-flow: column wrap;
   align-items: center;
+  gap: 2rem;
+}
+.about__card-address {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+}
+.about__card-address svg#No162 {
+  width: 4rem;
+  margin-bottom: 0.65rem;
+}
+.about__card-address svg#WentworthStreet {
+  width: 8rem;
+  margin-bottom: 0.25rem;
+}
+.about__card-contact {
+  display: flex;
+  flex-flow: column nowrap;
+}
+@media (min-width: 960px) {
+  .about__card-contact {
+    flex-flow: rwo nowrap;
+  }
 }

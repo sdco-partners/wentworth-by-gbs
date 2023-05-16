@@ -32,11 +32,11 @@ export default function About () {
                     <SignupForm></SignupForm>
                 </div>
                     <div className="about__card-contact">
-                        <div className="phone">
+                        <div className="about__card-phone">
                             <p className="h2">Phone</p>
                             <p>843.737.0512</p>
                         </div>
-                        <div className="about__email">
+                        <div className="about__card-email">
                             <Envelope></Envelope>
                         </div>
                     </div>

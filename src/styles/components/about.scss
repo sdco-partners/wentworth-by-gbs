@@ -17,20 +17,25 @@
             object-fit: fill;
             &.mobile {
                 display: block;
+                margin: 0 auto;
+                max-width: calc(100% - 5rem);
                 @include breakpoint($tablet) {
+                    max-width: calc(100% - 10rem);
+                }
+                @include breakpoint($laptop) {
                     display: none;
                 }
             }
             &.desktop {
                 display: none;
-                @include breakpoint($tablet) {
+                @include breakpoint($laptop) {
                     display: block;
+                    max-width: 100%;
                 }
             }
         }
     }
     &__card {
-        // position: absolute;
         padding: 100px;
         position: relative;
         max-width: 800px;
@@ -38,7 +43,6 @@
         bottom: 0;
         left: 0;
         z-index: 400;
-        // max-height: 70%;
         margin: 0 auto;
         // background: url("/src/assets/graphics/card_vertical.svg") center no-repeat;
         @include breakpoint($laptop) {
@@ -48,10 +52,41 @@
 
         &-content {
             width: 100%;
+            margin: 0 auto;
             position: relative;
             display: flex;
             flex-flow: column wrap;
             align-items: center;
+            gap: 2rem;
+        }
+
+        &-address {
+            display: flex;
+            flex-flow: column nowrap;
+            align-items: center;
+            svg {
+                &#No162 {
+                    width: 4rem;
+                    margin-bottom: 0.65rem;
+                }
+                &#WentworthStreet {
+                    width: 8rem;
+                    margin-bottom: 0.25rem;
+                }
+            }
+        }
+
+        &-description {
+            
+        }
+        
+        &-contact {
+            display: flex;
+            flex-flow: column nowrap;
+            @include breakpoint($laptop) {
+                flex-flow: rwo nowrap;
+            }
+
         }
     }
 }

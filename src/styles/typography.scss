@@ -7,48 +7,37 @@ html {
 
 
 body {
-//    color: $sand;
-   line-height: 1.25;
    font-smooth: antialiased; 
 }
 
 .h1 {
-    &__serif {
-        font-family: $serif;
-        font-size: $h1_mobile;
-        font-style: normal;
-        font-weight: 400;
-        letter-spacing: 0.01rem;
-        @include breakpoint($laptop) {
-            font-size: $h1;
-        }
-    }
+
 }
 
 .h2 {
-    &__serif {
-        font-family: $serif;
+    font-family: $script;
+    font-size: $h2_mobile;
+    @include breakpoint($laptop) {
         font-size: $h2;
-        font-style: normal;
-        font-weight: 400;
-        text-transform: uppercase;
-        letter-spacing: 0.05rem;
-    }
-    &__sans {
-        @include sans($h2);
-        text-transform: uppercase;
-        letter-spacing: 0.05rem;
     }
 }
 
 .h3 {
-    &__sans {
-        @include sans($h3);
-        line-height: 1.75;
-        text-transform: uppercase;
-        letter-spacing: 0.05rem;
-        @include breakpoint($laptop) {
-            font-size: $h3;
-        }
+    @include sans($h3_mobile);
+    line-height: 2;
+    text-transform: uppercase;
+    letter-spacing: 0.05rem;
+    @include breakpoint($laptop) {
+        font-size: $h3;
+    }
+}
+
+.h4 {
+    @include sans($h4_mobile);
+    line-height: 1.75;
+    text-transform: uppercase;
+    letter-spacing: 0.05rem;
+    @include breakpoint($laptop) {
+        font-size: $h4;
     }
 }
