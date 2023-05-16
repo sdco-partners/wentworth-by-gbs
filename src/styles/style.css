@@ -119,6 +119,20 @@ body {
   }
 }
 
+.h5 {
+  font-family: "sweet-sans-pro", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 0.95rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05rem;
+}
+@media (min-width: 960px) {
+  .h5 {
+    font-size: 1rem;
+  }
+}
+
 /*
 This CSS resource incorporates links to font software which is the valuable copyrighted property of Monotype and/or its suppliers. You may not attempt to copy, install, redistribute, convert, modify or reverse engineer this font software. Please contact Monotype with any questions regarding Web Fonts: https://www.linotype.com
 */
@@ -311,6 +325,7 @@ a {
   margin: 0 auto;
 }
 .about__card-content {
+  height: 100%;
   width: 100%;
   margin: 0 auto;
   position: relative;
@@ -332,12 +347,88 @@ a {
   width: 8rem;
   margin-bottom: 0.25rem;
 }
+.about__card-description {
+  margin-bottom: 0.5rem;
+}
 .about__card-contact {
   display: flex;
   flex-flow: column nowrap;
+  align-items: flex-end;
+  gap: 0.75rem;
 }
 @media (min-width: 960px) {
   .about__card-contact {
-    flex-flow: rwo nowrap;
+    width: 100%;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+  }
+}
+.about__card-phone {
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: flex-end;
+  gap: 0.5rem;
+}
+.about__card-phone .h5 {
+  transform: translateY(-1px);
+}
+.about__card-phone .h5:hover {
+  cursor: pointer;
+}
+.about__card-email {
+  width: 2rem;
+  transform: translateY(2px);
+}
+.about__card-email:hover {
+  cursor: pointer;
+}
+
+.newsletter__signup {
+  display: flex;
+  flex-flow: column nowrap;
+  gap: 1.5rem;
+  margin-bottom: 1rem;
+}
+.newsletter__signup input {
+  width: 15rem;
+  font-family: "Shelley Script";
+  font-size: 1.5rem;
+  color: #000000;
+  text-align: center;
+  background: none;
+  outline: none;
+  border: none;
+  border-bottom: 1px solid #000000;
+}
+.newsletter__signup input::placeholder {
+  color: #000000;
+}
+@media (min-width: 960px) {
+  .newsletter__signup input {
+    width: 20rem;
+    font-size: 1.75rem;
+  }
+}
+.newsletter__signup button {
+  margin: 0 auto;
+  width: 40%;
+  height: 2rem;
+  font-family: "sweet-sans-pro", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 0.95rem;
+  color: #FAF8F6;
+  background: #000000;
+  border: none;
+}
+.newsletter__signup button:hover {
+  cursor: pointer;
+}
+@media (min-width: 960px) {
+  .newsletter__signup button {
+    font-family: "sweet-sans-pro", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 1rem;
   }
 }

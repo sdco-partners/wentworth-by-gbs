@@ -44,13 +44,9 @@
         left: 0;
         z-index: 400;
         margin: 0 auto;
-        // background: url("/src/assets/graphics/card_vertical.svg") center no-repeat;
-        @include breakpoint($laptop) {
-            // max-height: 55%;
-            // background: url("/src/assets/graphics/card_horizontal.svg") center no-repeat;
-        }
 
         &-content {
+            height: 100%;
             width: 100%;
             margin: 0 auto;
             position: relative;
@@ -77,16 +73,41 @@
         }
 
         &-description {
-            
+           margin-bottom: 0.5rem; 
         }
         
         &-contact {
             display: flex;
             flex-flow: column nowrap;
+            align-items: flex-end;
+            gap: 0.75rem;
             @include breakpoint($laptop) {
-                flex-flow: rwo nowrap;
+                width: 100%;
+                flex-flow: row nowrap;
+                justify-content: space-between;
             }
-
         }
+        
+        &-phone {
+            display: flex;
+            flex-flow: row nowrap;
+            align-items: flex-end;
+            gap: 0.5rem;
+            .h5 {
+                transform: translateY(-1px);
+                &:hover {
+                    cursor: pointer;
+                }
+            }
+        }
+
+        &-email {
+            width: 2rem;
+            transform: translateY(2px);
+            &:hover {
+                cursor: pointer;
+            }
+        }
+
     }
 }

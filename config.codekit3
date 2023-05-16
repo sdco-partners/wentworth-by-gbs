@@ -1703,6 +1703,21 @@
       "pg" : 0,
       "sct" : 0
     },
+    "\/src\/styles\/components\/newslette.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 0,
+      "oAP" : "\/src\/styles\/components\/newslette.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
+    },
     "\/src\/styles\/components\/signup.scss" : {
       "aP" : 0,
       "bl" : 0,

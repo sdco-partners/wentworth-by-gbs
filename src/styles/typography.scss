@@ -41,3 +41,12 @@ body {
         font-size: $h4;
     }
 }
+
+.h5 {
+    @include sans($h5_mobile);
+    text-transform: uppercase;
+    letter-spacing: 0.05rem;
+    @include breakpoint($laptop) {
+        font-size: $h5;
+    }
+}
