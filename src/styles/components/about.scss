@@ -1,0 +1,22 @@
+.about {
+    text-align: center;
+    max-width: calc(100% - 4rem);
+    &__card {
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        z-index: 400;
+        max-height: 70%;
+        margin: 0 auto;
+        background: center no-repeat url("/src/assets/graphics/card_vertical.svg");
+
+        &__content {
+            position: relative;
+            display: flex;
+            flex-flow: column wrap;
+
+        }
+    }
+}

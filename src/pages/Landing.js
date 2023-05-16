@@ -7,7 +7,7 @@ export default function Landing () {
         <>
         <div className="landing">
             <Header></Header>
-            {/* <About></About> */}
+            <About></About>
             <Footer></Footer>
         </div>
         </>

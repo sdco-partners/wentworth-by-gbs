@@ -234,6 +234,16 @@
       "plM" : 52780316221407,
       "prP" : 0
     },
+    "\/src\/assets\/graphics\/wentworth-street.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/src\/assets\/graphics\/wentworth-street.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
     "\/src\/components\/About.js" : {
       "bF" : 0,
       "ft" : 64,
@@ -1648,6 +1658,21 @@
       "pg" : 0,
       "sct" : 0
     },
+    "\/src\/styles\/components\/about.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/src\/styles\/components\/about.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
+    },
     "\/src\/styles\/components\/footer.scss" : {
       "aP" : 0,
       "bl" : 0,
@@ -1673,6 +1698,21 @@
       "ma" : 0,
       "oA" : 1,
       "oAP" : "\/src\/styles\/components\/header.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
+    },
+    "\/src\/styles\/components\/signup.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/src\/styles\/components\/signup.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,
