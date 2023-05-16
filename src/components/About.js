@@ -25,7 +25,7 @@ export default function About () {
                         <h2 className="h3">A shop, experience, and thoughtfully curated collection of new, vintage, and one-of-kind goods from around the world.</h2>
                     </div>
                     <div className="about__card-social">
-                        <p className="h4">Follow the progress @wentworthbygbs.</p>
+                        <p className="h4">Follow the progress <a href="https://www.instagram.com/wentworthbygbs/" target="_blank">@wentworthbygbs</a>.</p>
                         <p className="h4">Subscribe for the latest news and updates.</p>
                     </div>
                 <div className="about__card-form">
@@ -34,10 +34,10 @@ export default function About () {
                     <div className="about__card-contact">
                         <div className="about__card-phone">
                             <p className="h2">Phone</p>
-                            <p className="h5">843.737.0512</p>
+                            <p className="h5"><a href="tel:843.737.0512">843.737.0512</a></p>
                         </div>
                         <div className="about__card-email">
-                            <Envelope></Envelope>
+                            <a href="mailto:dev@stitchdesignco.com"><Envelope></Envelope></a>
                         </div>
                     </div>
                 </div>
