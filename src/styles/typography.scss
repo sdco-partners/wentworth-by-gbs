@@ -35,20 +35,18 @@ body {
         letter-spacing: 0.05rem;
     }
     &__sans {
-        @include sans($h2) {
-            text-transform: uppercase;
-            letter-spacing: 0.05rem;
-        }
+        @include sans($h2);
+        text-transform: uppercase;
+        letter-spacing: 0.05rem;
     }
 }
 
 .h3 {
     &__sans {
-        @include sans($h3) {
-            line-height: 1.75;
-            text-transform: uppercase;
-            letter-spacing: 0.05rem;
-        }
+        @include sans($h3);
+        line-height: 1.75;
+        text-transform: uppercase;
+        letter-spacing: 0.05rem;
         @include breakpoint($laptop) {
             font-size: $h3;
         }

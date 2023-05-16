@@ -103,18 +103,18 @@ body {
 }
 .h2__sans {
   font-family: "sweet-sans-pro", sans-serif;
-  font-size: 1.125rem;
+  font-weight: 700;
   font-style: normal;
-  font-weight: 400;
+  font-size: 1.125rem;
   text-transform: uppercase;
   letter-spacing: 0.05rem;
 }
 
 .h3__sans {
   font-family: "sweet-sans-pro", sans-serif;
-  font-size: 0.675rem;
+  font-weight: 700;
   font-style: normal;
-  font-weight: 400;
+  font-size: 0.75rem;
   line-height: 1.75;
   text-transform: uppercase;
   letter-spacing: 0.05rem;
@@ -138,9 +138,31 @@ html, body {
   margin: 0;
   height: 100%;
   width: 100%;
-  background: #7D5B4F;
+  background: #322827;
   overflow: hidden;
 }
 a {
   text-decoration: none;
+}
+
+.header {
+  display: absolute;
+  margin-top: 2rem;
+  top: 0;
+  left: 0;
+  right: 5rem;
+}
+.header__content {
+  margin: 0 auto;
+  max-width: calc(100% - 2rem);
+}
+.header__content svg {
+  fill: #000000;
+}
+.header__content img {
+  position: absolute;
+  width: 110px;
+  height: auto;
+  top: 3.5rem;
+  right: 3.5rem;
 }

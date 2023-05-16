@@ -128,6 +128,19 @@
       "oAP" : "\/src\/assets\/fonts\/shelley-script-w01-regular.woff2",
       "oF" : 0
     },
+    "\/src\/assets\/graphics\/calligraphy.png" : {
+      "ft" : 32768,
+      "iS" : 97059,
+      "oA" : 0,
+      "oAP" : "\/src\/assets\/graphics\/calligraphy.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 90,
+      "rq" : 75
+    },
     "\/src\/assets\/graphics\/calligraphy.svg" : {
       "ft" : 2097152,
       "miP" : 0,
@@ -178,6 +191,19 @@
       "plM" : 52780316221407,
       "prP" : 0
     },
+    "\/src\/assets\/graphics\/mark.png" : {
+      "ft" : 32768,
+      "iS" : 51817,
+      "oA" : 0,
+      "oAP" : "\/src\/assets\/graphics\/mark.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 90,
+      "rq" : 75
+    },
     "\/src\/assets\/graphics\/mark.svg" : {
       "ft" : 2097152,
       "miP" : 0,
@@ -215,6 +241,17 @@
       "mi" : 1,
       "oA" : 1,
       "oAP" : "\/src\/components\/About-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
+    "\/src\/components\/Header.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 1,
+      "oAP" : "\/src\/components\/Header-min.js",
       "oF" : 0,
       "sC" : 3,
       "tS" : 0
@@ -1600,7 +1637,7 @@
       "pg" : 0,
       "sct" : 0
     },
-    "\/src\/styles\/components\/mixins.scss" : {
+    "\/src\/styles\/components\/header.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
@@ -1608,8 +1645,8 @@
       "ec" : 1,
       "ft" : 4,
       "ma" : 0,
-      "oA" : 0,
-      "oAP" : "\/src\/styles\/components\/mixins.css",
+      "oA" : 1,
+      "oAP" : "\/src\/styles\/components\/header.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,
@@ -1626,6 +1663,21 @@
       "oA" : 1,
       "oAP" : "\/src\/styles\/global.css",
       "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
+    },
+    "\/src\/styles\/mixins.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/src\/styles\/mixins.css",
+      "oF" : 1,
       "oS" : 0,
       "pg" : 0,
       "sct" : 0

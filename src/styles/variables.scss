@@ -1,3 +1,5 @@
+@import "mixins";
+
 /*
 This CSS resource incorporates links to font software which is the valuable copyrighted property of Monotype and/or its suppliers. You may not attempt to copy, install, redistribute, convert, modify or reverse engineer this font software. Please contact Monotype with any questions regarding Web Fonts: https://www.linotype.com
 */
@@ -27,8 +29,12 @@ $laptop: 960px;
 $tablet: 768px;
 $mobile: 400px;
 
+// HEX VALUES FROM WIREFRAME
+$chocolate: #322827;
+
+// HEX VALUES FROM BRAND BOOK
 $white: #FAF8F6;
 $black: #000000;
 $tangerine: #CA7D5F;
 $cigar: #A87B59;
-$chocolate: #7D5B4F;
+// $chocolate: #7D5B4F;
