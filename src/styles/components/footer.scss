@@ -11,15 +11,19 @@
         max-width: calc(100% - 2rem);
         display: flex;
         flex-flow: column nowrap;
+        align-items: center;
+        gap: 1.75rem;
         @include breakpoint($laptop) {
             flex-flow: row nowrap;
             justify-content: space-between;
+            align-items: flex-end;
             max-width: calc(100% - 200px);
+            margin-bottom: 2rem;
         }
         
         &__left {
             img {
-                width: 110px;
+                width: 100px;
                 height: auto;
             }
         }
@@ -27,12 +31,26 @@
             max-width: calc(100% - 150px);
             display: flex;
             flex-flow: column nowrap;
-            justify-content: center;
+            gap: 1rem;
             @include breakpoint($laptop) {
                 flex-flow: row nowrap;
+                max-width: 50%;
             }
             svg {
+                align-self: center;
                 fill: $white;
+                &#No162 {
+                    width: 65px;
+                    @include breakpoint($laptop) {
+                        width: 80px;
+                    }
+                }
+                &#Tagline {
+                    width: 100%;
+                    @include breakpoint($laptop) {
+                        transform: translateY(2px);
+                    }
+                }
             }
         }
     }
