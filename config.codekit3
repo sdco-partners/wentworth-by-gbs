@@ -245,6 +245,17 @@
       "sC" : 3,
       "tS" : 0
     },
+    "\/src\/components\/Footer.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 1,
+      "oAP" : "\/src\/components\/Footer-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
     "\/src\/components\/Header.js" : {
       "bF" : 0,
       "ft" : 64,
@@ -1632,6 +1643,21 @@
       "ma" : 0,
       "oA" : 0,
       "oAP" : "\/src\/styles\/breakpoint-sass\/tests\/tests\/35_memoization.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
+    },
+    "\/src\/styles\/components\/footer.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/src\/styles\/components\/footer.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,

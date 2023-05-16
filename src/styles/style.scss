@@ -1,8 +1,8 @@
 @import "reset";
 @import "variables";
 @import "typography";
-@import "global";
 @import "mixins";
+@import "global";
 @import "./components/header.scss";
-// @import "./components";
+@import "./components/footer.scss";
 // @import "./components";

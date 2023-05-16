@@ -7,12 +7,15 @@
     &__content {
         margin: 0 auto;
         max-width: calc(100% - 2rem);
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: space-between;
         svg {
             fill: $black;
         }
         img {
             position: absolute;
-            width: 110px;
+            width: 100px;
             height: auto;
             top: 3.5rem;
             right: 3.5rem;

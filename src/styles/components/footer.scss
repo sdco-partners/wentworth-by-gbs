@@ -1,0 +1,33 @@
+.footer {
+    position: absolute;
+    margin-bottom: 2rem;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
+    &__content {
+        margin: 0 auto;
+        max-width: calc(100% - 2rem);
+        display: flex;
+
+        &__left {
+            img {
+                position: absolute;
+                width: 110px;
+                height: auto;
+                top: 3.5rem;
+                right: 3.5rem;
+            }
+        }
+        &__right {
+            display: flex;
+            flex-flow: column nowrap;
+            @include breakpoint($laptop) {
+                flex-flow: row nowrap;
+            }
+            svg {
+                fill: $black;
+            }
+        }
+    }
+}
