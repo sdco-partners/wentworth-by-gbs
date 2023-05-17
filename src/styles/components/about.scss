@@ -19,9 +19,6 @@
                 display: block;
                 margin: 0 auto;
                 max-width: calc(100% - 5rem);
-                // @include breakpoint($tablet) {
-                //     max-width: calc(100% - 10rem);
-                // }
                 @include breakpoint($laptop) {
                     display: none;
                 }
