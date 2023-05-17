@@ -1,4 +1,4 @@
-.newsletter__signup {
+.about__card-form>div {
     display: flex;
     flex-flow: column nowrap;
     gap: 1.5rem;
@@ -31,6 +31,7 @@
         width: 40%;
         height: 2rem;
         @include sans($h5_mobile);
+        text-transform: uppercase;
         color: $white;
         background: $black;
         border: none;

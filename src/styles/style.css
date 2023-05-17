@@ -419,13 +419,13 @@ a {
   cursor: pointer;
 }
 
-.newsletter__signup {
+.about__card-form > div {
   display: flex;
   flex-flow: column nowrap;
   gap: 1.5rem;
   margin-top: 0;
 }
-.newsletter__signup input {
+.about__card-form > div input {
   width: 15rem;
   font-family: "Shelley Script";
   font-size: 1.5rem;
@@ -439,16 +439,16 @@ a {
   border-radius: 0;
   border-bottom: 1px solid #000000;
 }
-.newsletter__signup input::placeholder {
+.about__card-form > div input::placeholder {
   color: #000000;
 }
 @media (min-width: 960px) {
-  .newsletter__signup input {
+  .about__card-form > div input {
     width: 20rem;
     font-size: 1.75rem;
   }
 }
-.newsletter__signup button {
+.about__card-form > div button {
   margin: 0 auto;
   width: 40%;
   height: 2rem;
@@ -456,15 +456,16 @@ a {
   font-weight: 700;
   font-style: normal;
   font-size: 0.95rem;
+  text-transform: uppercase;
   color: #FAF8F6;
   background: #000000;
   border: none;
 }
-.newsletter__signup button:hover {
+.about__card-form > div button:hover {
   cursor: pointer;
 }
 @media (min-width: 960px) {
-  .newsletter__signup button {
+  .about__card-form > div button {
     font-family: "sweet-sans-pro", sans-serif;
     font-weight: 700;
     font-style: normal;
