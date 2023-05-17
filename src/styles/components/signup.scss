@@ -1,8 +1,16 @@
-.about__card-form>div {
+.about__card-form {
     display: flex;
     flex-flow: column nowrap;
     gap: 1.5rem;
     margin-top: 0;
+
+    .subscribe-status {
+        margin: 0 auto;
+        font-family: $script;
+        font-size: $h2_mobile;
+        color: $black;
+        text-align: center;
+    }
 
     input {
         width: 15rem;

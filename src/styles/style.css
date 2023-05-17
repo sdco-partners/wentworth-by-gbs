@@ -419,13 +419,20 @@ a {
   cursor: pointer;
 }
 
-.about__card-form > div {
+.about__card-form {
   display: flex;
   flex-flow: column nowrap;
   gap: 1.5rem;
   margin-top: 0;
 }
-.about__card-form > div input {
+.about__card-form .subscribe-status {
+  margin: 0 auto;
+  font-family: "Shelley Script";
+  font-size: 1.5rem;
+  color: #000000;
+  text-align: center;
+}
+.about__card-form input {
   width: 15rem;
   font-family: "Shelley Script";
   font-size: 1.5rem;
@@ -439,16 +446,16 @@ a {
   border-radius: 0;
   border-bottom: 1px solid #000000;
 }
-.about__card-form > div input::placeholder {
+.about__card-form input::placeholder {
   color: #000000;
 }
 @media (min-width: 960px) {
-  .about__card-form > div input {
+  .about__card-form input {
     width: 20rem;
     font-size: 1.75rem;
   }
 }
-.about__card-form > div button {
+.about__card-form button {
   margin: 0 auto;
   width: 40%;
   height: 2rem;
@@ -461,11 +468,11 @@ a {
   background: #000000;
   border: none;
 }
-.about__card-form > div button:hover {
+.about__card-form button:hover {
   cursor: pointer;
 }
 @media (min-width: 960px) {
-  .about__card-form > div button {
+  .about__card-form button {
     font-family: "sweet-sans-pro", sans-serif;
     font-weight: 700;
     font-style: normal;
