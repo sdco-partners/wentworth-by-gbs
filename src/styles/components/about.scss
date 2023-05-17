@@ -19,7 +19,7 @@
             &.mobile {
                 display: block;
                 margin: 0 auto;
-                max-width: calc(100% - 5rem);
+                max-width: calc(100% - 7rem);
                 @include breakpoint($laptop) {
                     display: none;
                 }
@@ -42,7 +42,11 @@
         left: 0;
         z-index: 400;
         margin: 0 auto;
+        transform: translateY(-2rem);
         @include breakpoint($laptop) {
+            max-width: 650px;
+        }
+        @include breakpoint($desktop) {
             max-width: 900px;
         }
 
@@ -54,8 +58,11 @@
             display: flex;
             flex-flow: column wrap;
             align-items: center;
-            gap: 1.25rem;
+            gap: 1rem;
             @include breakpoint($laptop) {
+                width: 95%;
+            }
+            @include breakpoint($desktop) {
                 gap: 1rem;
                 width: 95%;
             }
@@ -67,11 +74,11 @@
             align-items: center;
             svg {
                 &#No162 {
-                    width: 4rem;
-                    margin-bottom: 0.65rem;
+                    width: 3.25rem;
+                    margin-bottom: 0.5rem;
                 }
                 &#WentworthStreet {
-                    width: 8rem;
+                    width: 6.5rem;
                     margin-bottom: 0.25rem;
                 }
             }
@@ -79,13 +86,14 @@
 
         &-description {
            margin-bottom: 0.5rem; 
+           width: 100%;
            @include breakpoint($laptop) {
                 width: 66%;
            }
         }
         
         &-social {
-            width: 85%;
+            width: 70%;
             @include breakpoint($laptop) {
                  width: 100%;
             }

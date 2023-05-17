@@ -81,11 +81,11 @@ body {
 
 .h2 {
   font-family: "Shelley Script";
-  font-size: 1.5rem;
+  font-size: 1.25rem;
 }
 @media (min-width: 960px) {
   .h2 {
-    font-size: 1.75rem;
+    font-size: 1.325rem;
   }
 }
 
@@ -93,14 +93,14 @@ body {
   font-family: "sweet-sans-pro", sans-serif;
   font-weight: 700;
   font-style: normal;
-  font-size: 0.75rem;
+  font-size: 0.675rem;
   line-height: 2;
   text-transform: uppercase;
   letter-spacing: 0.05rem;
 }
 @media (min-width: 960px) {
   .h3 {
-    font-size: 1.125rem;
+    font-size: 0.875rem;
     line-height: 1.875;
   }
 }
@@ -109,14 +109,14 @@ body {
   font-family: "sweet-sans-pro", sans-serif;
   font-weight: 700;
   font-style: normal;
-  font-size: 0.675rem;
+  font-size: 0.5rem;
   line-height: 1.75;
   text-transform: uppercase;
   letter-spacing: 0.05rem;
 }
 @media (min-width: 960px) {
   .h4 {
-    font-size: 0.75rem;
+    font-size: 0.675rem;
   }
 }
 
@@ -124,7 +124,7 @@ body {
   font-family: "sweet-sans-pro", sans-serif;
   font-weight: 700;
   font-style: normal;
-  font-size: 0.95rem;
+  font-size: 0.75rem;
   text-transform: uppercase;
   letter-spacing: 0.05rem;
 }
@@ -309,7 +309,7 @@ a {
 .about__card-bg svg.mobile {
   display: block;
   margin: 0 auto;
-  max-width: calc(100% - 5rem);
+  max-width: calc(100% - 7rem);
 }
 @media (min-width: 960px) {
   .about__card-bg svg.mobile {
@@ -334,8 +334,14 @@ a {
   left: 0;
   z-index: 400;
   margin: 0 auto;
+  transform: translateY(-2rem);
 }
 @media (min-width: 960px) {
+  .about__card {
+    max-width: 650px;
+  }
+}
+@media (min-width: 1367px) {
   .about__card {
     max-width: 900px;
   }
@@ -348,9 +354,14 @@ a {
   display: flex;
   flex-flow: column wrap;
   align-items: center;
-  gap: 1.25rem;
+  gap: 1rem;
 }
 @media (min-width: 960px) {
+  .about__card-content {
+    width: 95%;
+  }
+}
+@media (min-width: 1367px) {
   .about__card-content {
     gap: 1rem;
     width: 95%;
@@ -362,15 +373,16 @@ a {
   align-items: center;
 }
 .about__card-address svg#No162 {
-  width: 4rem;
-  margin-bottom: 0.65rem;
+  width: 3.25rem;
+  margin-bottom: 0.5rem;
 }
 .about__card-address svg#WentworthStreet {
-  width: 8rem;
+  width: 6.5rem;
   margin-bottom: 0.25rem;
 }
 .about__card-description {
   margin-bottom: 0.5rem;
+  width: 100%;
 }
 @media (min-width: 960px) {
   .about__card-description {
@@ -378,7 +390,7 @@ a {
   }
 }
 .about__card-social {
-  width: 85%;
+  width: 70%;
 }
 @media (min-width: 960px) {
   .about__card-social {
@@ -422,20 +434,21 @@ a {
 .about__card-form {
   display: flex;
   flex-flow: column nowrap;
-  gap: 1.5rem;
+  gap: 1rem;
   margin-top: 0;
+  align-items: center;
 }
 .about__card-form .subscribe-status {
   margin: 0 auto;
   font-family: "Shelley Script";
-  font-size: 1.5rem;
+  font-size: 1.25rem;
   color: #000000;
   text-align: center;
 }
 .about__card-form input {
-  width: 15rem;
+  width: 13rem;
   font-family: "Shelley Script";
-  font-size: 1.5rem;
+  font-size: 1.25rem;
   color: #000000;
   text-align: center;
   padding: 0;
@@ -452,17 +465,17 @@ a {
 @media (min-width: 960px) {
   .about__card-form input {
     width: 20rem;
-    font-size: 1.75rem;
+    font-size: 1.325rem;
   }
 }
 .about__card-form button {
   margin: 0 auto;
   width: 40%;
-  height: 2rem;
+  height: 1.5rem;
   font-family: "sweet-sans-pro", sans-serif;
   font-weight: 700;
   font-style: normal;
-  font-size: 0.95rem;
+  font-size: 0.75rem;
   text-transform: uppercase;
   color: #FAF8F6;
   background: #000000;

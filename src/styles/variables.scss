@@ -15,14 +15,14 @@ This CSS resource incorporates links to font software which is the valuable copy
 $script: "Shelley Script";
 $sans: normal 700 "sweet-sans-pro", sans-serif;
 
-$h2: 1.75rem;
-$h2_mobile: 1.5rem;
-$h3: 1.125rem;
-$h3_mobile: 0.75rem;
-$h4: 0.75rem;
-$h4_mobile: 0.675rem;
+$h2: 1.325rem;
+$h2_mobile: 1.25rem;
+$h3: 0.875rem;
+$h3_mobile: 0.675rem;
+$h4: 0.675rem;
+$h4_mobile: 0.5rem;
 $h5: 1rem;
-$h5_mobile: 0.95rem;
+$h5_mobile: 0.75rem;
 
 @import "./breakpoint-sass/stylesheets/breakpoint";
 

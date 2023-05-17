@@ -1,8 +1,9 @@
 .about__card-form {
     display: flex;
     flex-flow: column nowrap;
-    gap: 1.5rem;
+    gap: 1rem;
     margin-top: 0;
+    align-items: center;
 
     .subscribe-status {
         margin: 0 auto;
@@ -13,7 +14,7 @@
     }
 
     input {
-        width: 15rem;
+        width: 13rem;
         font-family: $script;
         font-size: $h2_mobile;
         color: $black;
@@ -37,7 +38,7 @@
     button {
         margin: 0 auto;
         width: 40%;
-        height: 2rem;
+        height: 1.5rem;
         @include sans($h5_mobile);
         text-transform: uppercase;
         color: $white;
