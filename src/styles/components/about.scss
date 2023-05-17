@@ -19,9 +19,9 @@
                 display: block;
                 margin: 0 auto;
                 max-width: calc(100% - 5rem);
-                @include breakpoint($tablet) {
-                    max-width: calc(100% - 10rem);
-                }
+                // @include breakpoint($tablet) {
+                //     max-width: calc(100% - 10rem);
+                // }
                 @include breakpoint($laptop) {
                     display: none;
                 }
@@ -38,12 +38,15 @@
     &__card {
         padding: 100px;
         position: relative;
-        max-width: 800px;
+        max-width: 475px;
         right: 0;
         bottom: 0;
         left: 0;
         z-index: 400;
         margin: 0 auto;
+        @include breakpoint($laptop) {
+            max-width: 900px;
+        }
 
         &-content {
             height: 100%;
@@ -54,6 +57,10 @@
             flex-flow: column wrap;
             align-items: center;
             gap: 2rem;
+            @include breakpoint($laptop) {
+                gap: 1rem;
+                width: 95%;
+            }
         }
 
         &-address {
@@ -74,6 +81,9 @@
 
         &-description {
            margin-bottom: 0.5rem; 
+           @include breakpoint($laptop) {
+                width: 66%;
+           }
         }
         
         &-contact {

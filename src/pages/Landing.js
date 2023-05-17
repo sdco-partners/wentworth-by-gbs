@@ -8,7 +8,7 @@ export default function Landing () {
         <>
         <div className="landing">
             <Header></Header>
-            <FadeIn delay={2500} transitionDuration={1000}>
+            <FadeIn delay={2000} transitionDuration={1000}>
                 <About></About>
             </FadeIn>
             <Footer></Footer>

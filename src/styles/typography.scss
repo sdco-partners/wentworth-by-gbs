@@ -29,6 +29,7 @@ body {
     letter-spacing: 0.05rem;
     @include breakpoint($laptop) {
         font-size: $h3;
+        line-height: 1.875;
     }
 }
 
