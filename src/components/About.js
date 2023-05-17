@@ -25,7 +25,7 @@ export default function About () {
                         <h2 className="h3">A shop, experience, and thoughtfully curated collection of new, vintage, and one-of-kind goods from around the world.</h2>
                     </div>
                     <div className="about__card-social">
-                        <p className="h4">Follow the progress <a href="https://www.instagram.com/wentworthbygbs/" target="_blank">@wentworthbygbs</a>.</p>
+                        <p className="h4">Follow the progress <a href="https://www.instagram.com/wentworthbygbs/" target="_blank" rel="noreferrer">@wentworthbygbs</a>.</p>
                         <p className="h4">Subscribe for the latest news and updates.</p>
                     </div>
                 <div className="about__card-form">
