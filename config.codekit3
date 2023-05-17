@@ -17,6 +17,205 @@
       "oAP" : "\/.gitignore",
       "oF" : 0
     },
+    "\/build\/asset-manifest.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/build\/asset-manifest-min.json",
+      "oF" : 0,
+      "oO" : 1,
+      "oS" : 1
+    },
+    "\/build\/favicon.ico" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/build\/favicon.ico",
+      "oF" : 0
+    },
+    "\/build\/index.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/build\/index.html",
+      "oF" : 0
+    },
+    "\/build\/manifest.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/build\/manifest-min.json",
+      "oF" : 0,
+      "oO" : 1,
+      "oS" : 1
+    },
+    "\/build\/robots.txt" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/build\/robots.txt",
+      "oF" : 0
+    },
+    "\/build\/static\/css\/main.81a935ba.css" : {
+      "aP" : 1,
+      "bl" : 0,
+      "ci" : 0,
+      "co" : 0,
+      "ft" : 16,
+      "ma" : 0,
+      "oA" : 0,
+      "oAP" : "\/build\/static\/css\/main.81a935ba-min.css",
+      "oF" : 0,
+      "pg" : 0
+    },
+    "\/build\/static\/css\/main.81a935ba.css.map" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/build\/static\/css\/main.81a935ba.css.map",
+      "oF" : 0
+    },
+    "\/build\/static\/js\/main.1bcc836a.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 0,
+      "oAP" : "\/build\/static\/js\/main.1bcc836a-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
+    "\/build\/static\/js\/main.1bcc836a.js.LICENSE.txt" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/build\/static\/js\/main.1bcc836a.js.LICENSE.txt",
+      "oF" : 0
+    },
+    "\/build\/static\/js\/main.1bcc836a.js.map" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/build\/static\/js\/main.1bcc836a.js.map",
+      "oF" : 0
+    },
+    "\/build\/static\/media\/calligraphy.5dce6a8dc288f3b6d852.png" : {
+      "ft" : 32768,
+      "iS" : 97059,
+      "oA" : 0,
+      "oAP" : "\/build\/static\/media\/calligraphy.5dce6a8dc288f3b6d852.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 90,
+      "rq" : 75
+    },
+    "\/build\/static\/media\/card_horizontal.2902b11e450c4977ff4d30950faa00cf.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/build\/static\/media\/card_horizontal.2902b11e450c4977ff4d30950faa00cf.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/build\/static\/media\/card_vertical.0d8b9cf0235b5557766d705afca88ee6.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/build\/static\/media\/card_vertical.0d8b9cf0235b5557766d705afca88ee6.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/build\/static\/media\/envelope.67df3ad9a67f0998bd472e05a4bc6395.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/build\/static\/media\/envelope.67df3ad9a67f0998bd472e05a4bc6395.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/build\/static\/media\/logo.b4d55dccae1369d374cf3f1433a46672.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/build\/static\/media\/logo.b4d55dccae1369d374cf3f1433a46672.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/build\/static\/media\/mark.e734876460099e0e733d.png" : {
+      "ft" : 32768,
+      "iS" : 51817,
+      "oA" : 0,
+      "oAP" : "\/build\/static\/media\/mark.e734876460099e0e733d.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 90,
+      "rq" : 75
+    },
+    "\/build\/static\/media\/no162.f74082444acd7a34aa7e171f76bd3156.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/build\/static\/media\/no162.f74082444acd7a34aa7e171f76bd3156.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/build\/static\/media\/shelley-script-w01-regular.2850d6d55d7b5bcbe803.woff" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/build\/static\/media\/shelley-script-w01-regular.2850d6d55d7b5bcbe803.woff",
+      "oF" : 0
+    },
+    "\/build\/static\/media\/shelley-script-w01-regular.e9422de066bc4a400b48.woff2" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/build\/static\/media\/shelley-script-w01-regular.e9422de066bc4a400b48.woff2",
+      "oF" : 0
+    },
+    "\/build\/static\/media\/tagline.fa7d490356ec80f4f21e7ca596a0c898.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/build\/static\/media\/tagline.fa7d490356ec80f4f21e7ca596a0c898.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/build\/static\/media\/wentworth-street.168a35e2e9d15c8e1616d7fa19606e11.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/build\/static\/media\/wentworth-street.168a35e2e9d15c8e1616d7fa19606e11.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
     "\/node_modules" : {
       "ft" : 65536,
       "oA" : 2,
@@ -1829,7 +2028,7 @@
   },
   "projectAttributes" : {
     "creationDate" : 704123107.03874898,
-    "displayValue" : "wentworth",
+    "displayValue" : "wentworth-by-gbs",
     "displayValueWasSetByUser" : 0,
     "iconImageName" : "brackets-pale",
     "iconImageWasSetByUser" : 0

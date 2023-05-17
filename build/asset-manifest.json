@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/static/css/main.81a935ba.css",
+    "main.js": "/static/js/main.1bcc836a.js",
+    "static/media/calligraphy.png": "/static/media/calligraphy.5dce6a8dc288f3b6d852.png",
+    "static/media/mark.png": "/static/media/mark.e734876460099e0e733d.png",
+    "static/media/shelley-script-w01-regular.woff2": "/static/media/shelley-script-w01-regular.e9422de066bc4a400b48.woff2",
+    "static/media/shelley-script-w01-regular.woff": "/static/media/shelley-script-w01-regular.2850d6d55d7b5bcbe803.woff",
+    "static/media/card_horizontal.svg": "/static/media/card_horizontal.2902b11e450c4977ff4d30950faa00cf.svg",
+    "static/media/card_vertical.svg": "/static/media/card_vertical.0d8b9cf0235b5557766d705afca88ee6.svg",
+    "static/media/tagline.svg": "/static/media/tagline.fa7d490356ec80f4f21e7ca596a0c898.svg",
+    "static/media/logo.svg": "/static/media/logo.b4d55dccae1369d374cf3f1433a46672.svg",
+    "static/media/wentworth-street.svg": "/static/media/wentworth-street.168a35e2e9d15c8e1616d7fa19606e11.svg",
+    "static/media/envelope.svg": "/static/media/envelope.67df3ad9a67f0998bd472e05a4bc6395.svg",
+    "static/media/no162.svg": "/static/media/no162.f74082444acd7a34aa7e171f76bd3156.svg",
+    "index.html": "/index.html",
+    "main.81a935ba.css.map": "/static/css/main.81a935ba.css.map",
+    "main.1bcc836a.js.map": "/static/js/main.1bcc836a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.81a935ba.css",
+    "static/js/main.1bcc836a.js"
+  ]
+}
