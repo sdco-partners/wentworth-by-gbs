@@ -4,7 +4,6 @@ import Mark from "../assets/graphics/mark.png";
 
 export default function Footer () {
     return (
-        <>
         <div className="footer">
             <div className="footer__content">
                 <div className="footer__content__left">
@@ -16,6 +15,5 @@ export default function Footer () {
                 </div>
             </div>
         </div>
-        </>
     )
 }

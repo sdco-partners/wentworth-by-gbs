@@ -8,7 +8,6 @@ import { ReactComponent as Envelope } from "../assets/graphics/envelope.svg";
 
 export default function About () {
     return (
-        <>
         <div className="about">
             <div className="about__card">
                 <div className="about__card-bg">
@@ -43,6 +42,5 @@ export default function About () {
                 </div>
             </div>
         </div>
-        </>
     )
 }
