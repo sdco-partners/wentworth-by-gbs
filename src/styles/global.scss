@@ -6,6 +6,10 @@ html, body {
     width: 100%;
     background: $chocolate;
     overflow: hidden;
+    ::selection {
+        background: $black;
+        color: $white;
+    }
 }
 
 a {

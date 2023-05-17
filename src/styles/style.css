@@ -150,6 +150,10 @@ html, body {
   background: #322827;
   overflow: hidden;
 }
+html ::selection, body ::selection {
+  background: #000000;
+  color: #FAF8F6;
+}
 
 a {
   text-decoration: none;
@@ -162,6 +166,7 @@ a {
 }
 
 .header {
+  user-select: none;
   position: absolute;
   top: 0;
   left: 0;
@@ -217,6 +222,7 @@ a {
 }
 
 .footer {
+  user-select: none;
   position: absolute;
   margin-bottom: 2rem;
   bottom: 0;
