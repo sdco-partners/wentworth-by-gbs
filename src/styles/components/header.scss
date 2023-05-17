@@ -4,6 +4,7 @@
     left: 0;
     right: 0;
     margin-top: 2rem;
+    z-index: 1;
     @include breakpoint($laptop) {
         margin-top: 5rem;
     }

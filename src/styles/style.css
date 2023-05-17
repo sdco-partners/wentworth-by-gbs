@@ -156,12 +156,18 @@ a {
   color: #000000;
 }
 
+.landing > div:nth-child(2) {
+  position: relative;
+  z-index: 2;
+}
+
 .header {
   position: absolute;
   top: 0;
   left: 0;
   right: 0;
   margin-top: 2rem;
+  z-index: 1;
 }
 @media (min-width: 960px) {
   .header {
@@ -217,6 +223,7 @@ a {
   left: 0;
   right: 0;
   text-align: center;
+  z-index: 1;
 }
 .footer__content {
   margin: 0 auto;
@@ -278,6 +285,7 @@ a {
   justify-content: center;
   align-items: center;
   height: 100dvh;
+  z-index: 3;
 }
 .about__card-bg {
   position: absolute;

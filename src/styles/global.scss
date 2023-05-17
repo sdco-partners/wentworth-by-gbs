@@ -12,3 +12,8 @@ a {
     text-decoration: none;
     color: $black;
 }
+
+.landing > div:nth-child(2) {
+    position: relative;
+    z-index: 2;
+}
