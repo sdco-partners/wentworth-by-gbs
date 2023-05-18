@@ -7,7 +7,7 @@ export default function Footer () {
         <div className="footer">
             <div className="footer__content">
                 <div className="footer__content__left">
-                    <img src={Mark} alt=""/>
+                    <img src={Mark} role="presentation"/>
                 </div>
                 <div className="footer__content__right">
                     <No162></No162>

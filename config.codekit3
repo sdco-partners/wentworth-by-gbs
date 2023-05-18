@@ -85,38 +85,38 @@
       "oAP" : "\/build\/static\/css\/main.f47b34f9.css.map",
       "oF" : 0
     },
-    "\/build\/static\/js\/main.3ca28681.js" : {
+    "\/build\/static\/js\/main.0d743dc4.js" : {
       "bF" : 0,
       "ft" : 64,
       "ma" : 0,
       "mi" : 1,
       "oA" : 0,
-      "oAP" : "\/build\/static\/js\/main.3ca28681-min.js",
+      "oAP" : "\/build\/static\/js\/main.0d743dc4-min.js",
       "oF" : 0,
       "sC" : 3,
       "tS" : 0
     },
-    "\/build\/static\/js\/main.3ca28681.js.LICENSE.txt" : {
+    "\/build\/static\/js\/main.0d743dc4.js.LICENSE.txt" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/build\/static\/js\/main.3ca28681.js.LICENSE.txt",
+      "oAP" : "\/build\/static\/js\/main.0d743dc4.js.LICENSE.txt",
       "oF" : 0
     },
-    "\/build\/static\/js\/main.3ca28681.js.map" : {
+    "\/build\/static\/js\/main.0d743dc4.js.map" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/build\/static\/js\/main.3ca28681.js.map",
+      "oAP" : "\/build\/static\/js\/main.0d743dc4.js.map",
       "oF" : 0
     },
-    "\/build\/static\/media\/calligraphy.5dce6a8dc288f3b6d852.png" : {
+    "\/build\/static\/media\/calligraphy.5827af8d345e41f78621.png" : {
       "ft" : 32768,
-      "iS" : 97059,
+      "iS" : 45500,
       "oA" : 0,
-      "oAP" : "\/build\/static\/media\/calligraphy.5dce6a8dc288f3b6d852.png",
+      "oAP" : "\/build\/static\/media\/calligraphy.5827af8d345e41f78621.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -165,11 +165,11 @@
       "plM" : 52780316221407,
       "prP" : 0
     },
-    "\/build\/static\/media\/mark.e734876460099e0e733d.png" : {
+    "\/build\/static\/media\/mark.4fbceeb2aabfbf8b8049.png" : {
       "ft" : 32768,
-      "iS" : 51817,
+      "iS" : 23127,
       "oA" : 0,
-      "oAP" : "\/build\/static\/media\/mark.e734876460099e0e733d.png",
+      "oAP" : "\/build\/static\/media\/mark.4fbceeb2aabfbf8b8049.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -337,7 +337,7 @@
     },
     "\/src\/assets\/graphics\/calligraphy.png" : {
       "ft" : 32768,
-      "iS" : 97059,
+      "iS" : 45500,
       "oA" : 0,
       "oAP" : "\/src\/assets\/graphics\/calligraphy.png",
       "oF" : 0,
@@ -400,7 +400,7 @@
     },
     "\/src\/assets\/graphics\/mark.png" : {
       "ft" : 32768,
-      "iS" : 51817,
+      "iS" : 23127,
       "oA" : 0,
       "oAP" : "\/src\/assets\/graphics\/mark.png",
       "oF" : 0,
