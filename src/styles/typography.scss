@@ -12,7 +12,7 @@ body {
 .h2 {
     font-family: $script;
     font-size: $h2_mobile;
-    @include breakpoint($laptop) {
+    @include breakpoint($desktop) {
         font-size: $h2;
     }
 }
@@ -22,7 +22,7 @@ body {
     line-height: 2;
     text-transform: uppercase;
     letter-spacing: 0.05rem;
-    @include breakpoint($laptop) {
+    @include breakpoint($desktop) {
         font-size: $h3;
         line-height: 1.875;
     }
@@ -30,10 +30,10 @@ body {
 
 .h4 {
     @include sans($h4_mobile);
-    line-height: 1.75;
+    line-height: 1.85;
     text-transform: uppercase;
     letter-spacing: 0.05rem;
-    @include breakpoint($laptop) {
+    @include breakpoint($desktop) {
         font-size: $h4;
     }
 }
@@ -42,7 +42,7 @@ body {
     @include sans($h5_mobile);
     text-transform: uppercase;
     letter-spacing: 0.05rem;
-    @include breakpoint($laptop) {
+    @include breakpoint($desktop) {
         font-size: $h5;
     }
 }

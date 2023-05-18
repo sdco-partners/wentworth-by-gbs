@@ -31,6 +31,9 @@
         }
         @include breakpoint($laptop) {
             width: 20rem;
+        }
+        @include breakpoint($desktop) {
+            width: 20rem;
             font-size: $h2;
         }
     }

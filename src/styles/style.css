@@ -83,7 +83,7 @@ body {
   font-family: "Shelley Script";
   font-size: 1.25rem;
 }
-@media (min-width: 960px) {
+@media (min-width: 1367px) {
   .h2 {
     font-size: 1.325rem;
   }
@@ -98,7 +98,7 @@ body {
   text-transform: uppercase;
   letter-spacing: 0.05rem;
 }
-@media (min-width: 960px) {
+@media (min-width: 1367px) {
   .h3 {
     font-size: 0.875rem;
     line-height: 1.875;
@@ -110,13 +110,13 @@ body {
   font-weight: 700;
   font-style: normal;
   font-size: 0.5rem;
-  line-height: 1.75;
+  line-height: 1.85;
   text-transform: uppercase;
   letter-spacing: 0.05rem;
 }
-@media (min-width: 960px) {
+@media (min-width: 1367px) {
   .h4 {
-    font-size: 0.675rem;
+    font-size: 0.625rem;
   }
 }
 
@@ -128,7 +128,7 @@ body {
   text-transform: uppercase;
   letter-spacing: 0.05rem;
 }
-@media (min-width: 960px) {
+@media (min-width: 1367px) {
   .h5 {
     font-size: 1rem;
   }
@@ -339,11 +339,13 @@ a {
 @media (min-width: 960px) {
   .about__card {
     max-width: 650px;
+    transform: translateY(-1.5rem);
   }
 }
 @media (min-width: 1367px) {
   .about__card {
-    max-width: 900px;
+    max-width: 850px;
+    transform: translateY(-1.75rem);
   }
 }
 .about__card-content {
@@ -358,12 +360,12 @@ a {
 }
 @media (min-width: 960px) {
   .about__card-content {
-    width: 95%;
+    width: 100%;
   }
 }
 @media (min-width: 1367px) {
   .about__card-content {
-    gap: 1rem;
+    gap: 1.75rem;
     width: 95%;
   }
 }
@@ -376,9 +378,24 @@ a {
   width: 3.25rem;
   margin-bottom: 0.5rem;
 }
+@media (min-width: 960px) {
+  .about__card-address svg#No162 {
+    width: 3.75rem;
+  }
+}
+@media (min-width: 1367px) {
+  .about__card-address svg#No162 {
+    margin-top: 0.75rem;
+  }
+}
 .about__card-address svg#WentworthStreet {
   width: 6.5rem;
   margin-bottom: 0.25rem;
+}
+@media (min-width: 960px) {
+  .about__card-address svg#WentworthStreet {
+    width: 7rem;
+  }
 }
 .about__card-description {
   margin-bottom: 0.5rem;
@@ -386,13 +403,23 @@ a {
 }
 @media (min-width: 960px) {
   .about__card-description {
-    width: 66%;
+    width: 75%;
+  }
+}
+@media (min-width: 1367px) {
+  .about__card-description {
+    width: 55%;
   }
 }
 .about__card-social {
   width: 70%;
 }
 @media (min-width: 960px) {
+  .about__card-social {
+    width: 80%;
+  }
+}
+@media (min-width: 1367px) {
   .about__card-social {
     width: 100%;
   }
@@ -402,13 +429,20 @@ a {
   flex-flow: column nowrap;
   align-items: center;
   gap: 0.75rem;
+  transform: translateY(0.5rem);
 }
 @media (min-width: 960px) {
   .about__card-contact {
+    transform: translateY(0.85rem);
     width: 100%;
     flex-flow: row nowrap;
     justify-content: space-between;
     align-items: flex-end;
+  }
+}
+@media (min-width: 1367px) {
+  .about__card-contact {
+    transform: translateY(1rem);
   }
 }
 .about__card-phone {
@@ -463,6 +497,11 @@ a {
   color: #000000;
 }
 @media (min-width: 960px) {
+  .about__card-form input {
+    width: 20rem;
+  }
+}
+@media (min-width: 1367px) {
   .about__card-form input {
     width: 20rem;
     font-size: 1.325rem;
