@@ -7,10 +7,16 @@
 
     .subscribe-status {
         margin: 0 auto;
-        font-family: $script;
-        font-size: $h2_mobile;
+        @include sans($h4_mobile);
         color: $black;
         text-align: center;
+        line-height: 1.25;
+        text-transform: uppercase;
+        width: 75%;
+        transform: translateY(0.75rem);
+        @include breakpoint($desktop) {
+            @include sans($h4)
+        }
     }
 
     input {

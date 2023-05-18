@@ -121,16 +121,16 @@
             flex-flow: column nowrap;
             align-items: center;
             gap: 0.75rem;
-            transform: translateY(0.5rem);
+            transform: translateY(0.8rem);
             @include breakpoint($laptop) {
-                transform: translateY(0.85rem);
+                transform: translateY(0.5rem);
                 width: 100%;
                 flex-flow: row nowrap;
                 justify-content: space-between;
                 align-items: flex-end;
             }
             @include breakpoint($desktop) {
-                transform: translateY(1rem);
+                transform: translateY(0.75rem);
             }
         }
         

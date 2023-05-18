@@ -429,11 +429,11 @@ a {
   flex-flow: column nowrap;
   align-items: center;
   gap: 0.75rem;
-  transform: translateY(0.5rem);
+  transform: translateY(0.8rem);
 }
 @media (min-width: 960px) {
   .about__card-contact {
-    transform: translateY(0.85rem);
+    transform: translateY(0.5rem);
     width: 100%;
     flex-flow: row nowrap;
     justify-content: space-between;
@@ -442,7 +442,7 @@ a {
 }
 @media (min-width: 1367px) {
   .about__card-contact {
-    transform: translateY(1rem);
+    transform: translateY(0.75rem);
   }
 }
 .about__card-phone {
@@ -474,10 +474,24 @@ a {
 }
 .about__card-form .subscribe-status {
   margin: 0 auto;
-  font-family: "Shelley Script";
-  font-size: 1.25rem;
+  font-family: "sweet-sans-pro", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 0.5rem;
   color: #000000;
   text-align: center;
+  line-height: 1.25;
+  text-transform: uppercase;
+  width: 75%;
+  transform: translateY(0.75rem);
+}
+@media (min-width: 1367px) {
+  .about__card-form .subscribe-status {
+    font-family: "sweet-sans-pro", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 0.625rem;
+  }
 }
 .about__card-form input {
   width: 13rem;

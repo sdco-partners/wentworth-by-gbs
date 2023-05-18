@@ -65,7 +65,7 @@
       "oAP" : "\/build\/robots.txt",
       "oF" : 0
     },
-    "\/build\/static\/css\/main.780fb633.css" : {
+    "\/build\/static\/css\/main.f47b34f9.css" : {
       "aP" : 1,
       "bl" : 0,
       "ci" : 0,
@@ -73,16 +73,16 @@
       "ft" : 16,
       "ma" : 0,
       "oA" : 0,
-      "oAP" : "\/build\/static\/css\/main.780fb633-min.css",
+      "oAP" : "\/build\/static\/css\/main.f47b34f9-min.css",
       "oF" : 0,
       "pg" : 0
     },
-    "\/build\/static\/css\/main.780fb633.css.map" : {
+    "\/build\/static\/css\/main.f47b34f9.css.map" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/build\/static\/css\/main.780fb633.css.map",
+      "oAP" : "\/build\/static\/css\/main.f47b34f9.css.map",
       "oF" : 0
     },
     "\/build\/static\/js\/main.3ca28681.js" : {
@@ -450,6 +450,19 @@
       "opt" : 0,
       "plM" : 52780316221407,
       "prP" : 0
+    },
+    "\/src\/assets\/graphics\/WentworthGBS_Mark_WEB.jpg" : {
+      "ft" : 16384,
+      "iS" : 179589,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/src\/assets\/graphics\/WentworthGBS_Mark_WEB.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
     },
     "\/src\/components\/About.js" : {
       "bF" : 0,
