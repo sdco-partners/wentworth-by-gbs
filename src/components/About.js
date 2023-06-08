@@ -36,7 +36,7 @@ export default function About () {
                             <p className="h5"><a href="tel:843.737.0512">843.737.0512</a></p>
                         </div>
                         <div className="about__card-email">
-                            <a href="mailto:dev@stitchdesignco.com"><Envelope></Envelope></a>
+                            <a href="mailto:blake@gregoryblakesams.com"><Envelope></Envelope></a>
                         </div>
                     </div>
                 </div>

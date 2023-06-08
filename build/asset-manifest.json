@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.f47b34f9.css",
-    "main.js": "/static/js/main.04d2d62e.js",
+    "main.js": "/static/js/main.62f431bf.js",
     "static/media/calligraphy.png": "/static/media/calligraphy.5827af8d345e41f78621.png",
     "static/media/shelley-script-w01-regular.woff2": "/static/media/shelley-script-w01-regular.e9422de066bc4a400b48.woff2",
     "static/media/shelley-script-w01-regular.woff": "/static/media/shelley-script-w01-regular.2850d6d55d7b5bcbe803.woff",
@@ -15,10 +15,10 @@
     "static/media/no162.svg": "/static/media/no162.f74082444acd7a34aa7e171f76bd3156.svg",
     "index.html": "/index.html",
     "main.f47b34f9.css.map": "/static/css/main.f47b34f9.css.map",
-    "main.04d2d62e.js.map": "/static/js/main.04d2d62e.js.map"
+    "main.62f431bf.js.map": "/static/js/main.62f431bf.js.map"
   },
   "entrypoints": [
     "static/css/main.f47b34f9.css",
-    "static/js/main.04d2d62e.js"
+    "static/js/main.62f431bf.js"
   ]
 }
